@@ -1,0 +1,17 @@
+# find help
+docker -h
+
+docker images
+
+docker ps -a
+
+docker rmi ${images id}
+docker rm ${container id}
+
+# build by dockerfile in current dir
+docker build -t ${tag name} .
+
+# build by dockerfile through url
+docker build -t ${tag name} ${url | path}
+
+
