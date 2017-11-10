@@ -1,0 +1,5 @@
+
+#docker build command
+#need the tar resource and docker file in the right path or url,in this case resource is jdk tar.gz.
+#docker build -t="${tag name}" ${path|url}
+docker build -t="${tag name}" ${path|url}
